@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Work</item>
+        <item>Study</item>
+        <item>Life</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/manage_my_tasks"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Name："
+            android:textSize="20sp"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_urgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_important"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/delete"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bt_bg"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Taskey</string>
+    <string name="add_task">Add a New Task</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_description">Task Description</string>
+    <string name="urgent">Urgent</string>
+    <string name="important">Important</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="add">Add</string>
+    <string name="your_id">Your ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="manage_my_tasks">Manage My Tasks</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>
